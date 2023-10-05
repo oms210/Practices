@@ -1,0 +1,76 @@
+{% extends "resumesubmission/layout.html" %}
+{% block title %}
+Your information
+{% endblock %}
+
+{% block body %}
+
+
+<section class="login py-5 border-top-1">
+
+    <div class="container">
+
+       
+        <div class="row justify-content-center">
+
+            <div class="col-lg-5 col-md-8 align-item-center">
+                <div class="border border">
+                {%if message%}
+                    <div class="alert alert-success p-4" role="alert">{{message}}</div>
+                 {%endif%}
+                    <h3 class="bg-gray p-4">Apply Now!</h3>
+
+                    <form id="form-application" action="{% url 'index' %}" method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <input type="hidden" id="division" name="division" />
+                        <input type="hidden" id="resume-url" name="resume-url" />
+
+                        <fieldset class="p-4">
+                            <input name="firstname" type="firstname" placeholder="First Name*" 
+                                class="border p-3 w-100 my-2">
+                            <input name="lastname" type="lastname" placeholder="Last Name*" 
+                                class="border p-3 w-100 my-2">
+
+                            <input name="email" type="email" placeholder="Email*" class="border p-3 w-100 my-2"
+                              >
+                            <input name="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                                placeholder="Phone Number*"
+                                class="border p-3 w-100 my-2">
+                            <select id="sel-divisions" name="sel-divisions"
+                                class="w-100 form-control mt-lg-1 mt-md-2 sel-year">
+
+                                {% for division in divisions %}
+                                <option value="{{ division.id }}">{{ division.name}}</option>
+                                {% endfor %}
+                            </select>
+                            <label for="file-upload">
+
+                                <span class="d-block btn bg-primary text-white my-3 select-files">Upload your
+                                    resume</span>
+
+                                <input type="file" class="form-control-file d-none" accept=".pdf, .doc" id="file-upload"
+                                    name="file-upload">
+
+
+                            </label>
+                            <p><span id="selected-file-name"></span></p>
+                               <div class="alert" role="alert" id="msg"></div>
+                            
+                            <input type="submit"
+                                class="d-block py-3 px-4 bg-primary text-white border-0 rounded font-weight-bold right"
+                                id="btn-save" value="Submit" name="btn-save"></input>
+                        </fieldset>
+
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+
+{% endblock %}

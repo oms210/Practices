@@ -1,0 +1,42 @@
+textarea {
+    min-height: 400px;
+}
+#selected-file-name {
+  font-size: medium;
+}
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
+
+#msg {
+   opacity: 0;
+   -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3 ease-in-out;
+
+}
+#msg.fade-in {
+  opacity: 1; 
+}
+#msg.fade-out {
+  opacity: 0;
+}
+
+
+.hide {
+  display: none;
+}
