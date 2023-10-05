@@ -1,0 +1,16 @@
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\bin\Debug\netcoreapp3.1\MerchantsGuideBook.exe
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\bin\Debug\netcoreapp3.1\MerchantsGuideBook.deps.json
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\bin\Debug\netcoreapp3.1\MerchantsGuideBook.runtimeconfig.json
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\bin\Debug\netcoreapp3.1\MerchantsGuideBook.runtimeconfig.dev.json
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\bin\Debug\netcoreapp3.1\MerchantsGuideBook.dll
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\bin\Debug\netcoreapp3.1\MerchantsGuideBook.pdb
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\obj\Debug\netcoreapp3.1\MerchantsGuideBook.csproj.AssemblyReference.cache
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\obj\Debug\netcoreapp3.1\MerchantsGuideBook.csproj.GenerateResource.cache
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\obj\Debug\netcoreapp3.1\MerchantsGuideBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\obj\Debug\netcoreapp3.1\MerchantsGuideBook.AssemblyInfoInputs.cache
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\obj\Debug\netcoreapp3.1\MerchantsGuideBook.AssemblyInfo.cs
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\obj\Debug\netcoreapp3.1\MerchantsGuideBook.csproj.CoreCompileInputs.cache
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\obj\Debug\netcoreapp3.1\MerchantsGuideBook.dll
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\obj\Debug\netcoreapp3.1\MerchantsGuideBook.pdb
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\obj\Debug\netcoreapp3.1\MerchantsGuideBook.genruntimeconfig.cache
+C:\Users\omarr\source\repos\MerchantsGuideBook\MerchantsGuideBook\obj\Debug\netcoreapp3.1\MerchantsGuideBook.Form3.resources
